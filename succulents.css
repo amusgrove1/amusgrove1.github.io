@@ -4,20 +4,17 @@ footer {
 }
 
 #about {
-	background-color: whitesmoke
+	background-color:
+	background-image: url(img/about.jpg);
 }
 
 #about h2 {
-	color:#372648;
 	text-align: center;
 }
 
-#about p {
-	color:#333333;
-};
-
-.image {
-	margin-left: 30%;
-	margin-right: auto;
+#about{
+	background-image: url(img/about.jpg);	
 }
+
+
 

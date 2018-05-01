@@ -1,0 +1,23 @@
+@charset "UTF-8";
+footer {
+	background-image: url(img/footer.jpg);	
+}
+
+#about {
+	background-color: whitesmoke
+}
+
+#about h2 {
+	color:#372648;
+	text-align: center;
+}
+
+#about p {
+	color:#333333;
+};
+
+.image {
+	margin-left: 30%;
+	margin-right: auto;
+}
+

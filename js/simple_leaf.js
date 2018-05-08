@@ -4,9 +4,9 @@ $(document).ready(function() {
 		function() {
 			console.log("meow");
 			var fileName = "https://amusgrove1.github.io/json/" + $(this).attr("title") + ".json";
-			console.log(fileName);
+			
 			$.getJSON(fileName, function(data) {
-				
+				console.log(fileName);
 				$.each(data, function() {
 					$.each(this, function(key, value) {
 						$(".modal-body").text("");

@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	$(".myBtn").click(
 		function() {
+			console.log("meow");
 			var fileName = "json/" + $(this).attr("title") + ".json";
 			$.getJSON(fileName, function(data) {
 				$.each(data, function() {
@@ -15,7 +16,7 @@ $(document).ready(function() {
 						
 						$("#myModal").modal();
 						
-						console.log("hello world")
+						console.log("hello world");
 					});
 				}); 
 			});

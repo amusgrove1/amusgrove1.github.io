@@ -1,8 +1,8 @@
 $(document).ready(function() {
-	console.log("boop");
+	
 	$(".myBtn").click(
 		function() {
-			console.log("meow");
+			
 			var fileName = "https://amusgrove1.github.io/json/" + $(this).attr("title") + ".json";
 			
 			$.getJSON(fileName, function(data) {

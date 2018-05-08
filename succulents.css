@@ -16,5 +16,19 @@ footer {
 	background-image: url(img/about.jpg);	
 }
 
+#love {
+	background-image: url(img/bar3.jpg);
+}
 
+#cards {
+	
+	margin-top: 70px;
+	padding: 30px;
+	background-color: #efc7d8;
+}
+
+#cards .row {
+	margin-bottom :30px;
+	
+}
 

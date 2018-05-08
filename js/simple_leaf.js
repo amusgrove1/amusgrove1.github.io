@@ -14,6 +14,8 @@ $(document).ready(function() {
 						);
 						
 						$("#myModal").modal();
+						
+						console.log("hello world")
 					});
 				}); 
 			});

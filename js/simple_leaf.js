@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	console.log("boop");
 	$(".myBtn").click(
 		function() {
 			console.log("meow");

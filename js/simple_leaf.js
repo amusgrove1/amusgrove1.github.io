@@ -13,7 +13,7 @@ $(document).ready(function() {
 						$(".modal-body").append(
 							"<h1>" + value.name + "</h1>" + 
 							"<img src='" + value.image + "'>" +
-							"<h2>" + value.price + "<br>" + value.speaker + "</h2>" + 
+							"<h2>" + value.price + "</h2>" + 
 							"<p>" + value.description + "</p>" 
 						);
 						console.log("hello world");

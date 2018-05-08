@@ -1,8 +1,8 @@
-[
+{"plant":[
 	{
-		"image":"img/plants/Aloe_Vera.png",
+		"image": "img/plants/Aloe_Vera.png",
 		"name": "Aloe Vera",
 		"price": "$3.95",
 		"description": "Aloe vera is a medicinal plant, a succulent whose sap has been used to treat sunburn and wounds for centuries. Medicinal value aside, aloe vera is also a great indoor plant. Because the sharp thorns along the margin of the leaves can cut people, the plant is best placed somewhere it can’t be accidentally brushed or fall."
 	}
-]
+]}

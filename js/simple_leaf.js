@@ -6,7 +6,7 @@ $(document).ready(function() {
 			var fileName = "https://amusgrove1.github.io/json/" + $(this).attr("title") + ".json";
 			
 			$.getJSON(fileName, function(data) {
-				console.log(fileName);
+				
 				$.each(data, function() {
 					$.each(this, function(key, value) {
 						$(".modal-body").text("");
@@ -16,10 +16,11 @@ $(document).ready(function() {
 							"<h2>" + value.price + "<br>" + value.speaker + "</h2>" + 
 							"<p>" + value.description + "</p>" 
 						);
+						console.log("hello world");
 						
 						$("#myModal").modal();
 						
-						console.log("hello world");
+						
 					});
 				}); 
 			});

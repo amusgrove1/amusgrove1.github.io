@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(".myBtn").click(
 		function() {
 			console.log("meow");
-			var fileName = "json/" + $(this).attr("title") + ".json";
+			var fileName = "https://amusgrove1.github.io/json/" + $(this).attr("title") + ".json";
 			$.getJSON(fileName, function(data) {
 				$.each(data, function() {
 					$.each(this, function(key, value) {

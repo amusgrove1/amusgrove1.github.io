@@ -17,7 +17,8 @@ footer {
 }
 
 #love {
-	background-image: url(img/bar3.jpg);
+	background-image: url(img/bar.jpg);
+	background-repeat: no-repeat;
 }
 
 #cards {
@@ -31,4 +32,35 @@ footer {
 	margin-bottom :30px;
 	
 }
+
+.modal-body {
+	color:black;
+}
+
+.modal-body img {
+	padding-left:80px;
+
+}
+
+.thumbnail h3 {
+	margin-top:8px;
+}
+form {
+	text-align:left;
+}
+
+form label {
+	margin:8px;
+}
+
+.submit {
+	background-color: #efc7d8;
+	border-radius: 4px;	
+	
+}
+
+.btn:focus,.btn:hover {
+	background-color: #F2A1C4;
+}
+
 

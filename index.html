@@ -21,6 +21,9 @@
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet">
     <link href="succulents.css" rel="stylesheet" type="text/css">
+    
+<!--    Favicon-->
+ <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
   </head>
 
   <body id="page-top">
@@ -95,7 +98,7 @@
         <div class="col-lg-8 mx-auto">
           <h2>Succulent Varieties</h2>
           <p>Find a plant that best fits you!</p>
-          <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">View varieties</a>
+          <a href="varieties.html" class="btn btn-default btn-lg">View varieties</a>
         </div>
       </div>
     </section>
@@ -108,12 +111,11 @@
          <p>Find the perfect home for your new plant companion!</p>
          
          <div class="row">
-			  <div class="col-lg-4">
+			  <div class="col-lg-4 col-md-6">
 				<div class="thumbnail">
-				  <img src="..." alt="...">
+				  <img src="img/habitats/hanging.jpg" width="150" alt=""/>
 				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>...</p>
+					<h3>Hanging Pot</h3>
 					
 				  </div>
 				</div>
@@ -121,12 +123,11 @@
 
 
 
-			  <div class="col-lg-4">
+			  <div class="col-lg-4 col-md-6">
 				<div class="thumbnail">
-				  <img src="..." alt="...">
-				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>...</p>
+				 <img src="img/habitats/animal.jpg" width="150" alt=""/>
+				<div class="caption">
+					<h3>Fun Animal Pot</h3>	
 					
 				  </div>
 				</div>
@@ -134,18 +135,59 @@
 
 
 
-			  <div class="col-lg-4">
+			  <div class="col-lg-4 col-md-6">
 				<div class="thumbnail">
-				  <img src="..." alt="...">
-				  <div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>...</p>
+				  <img src="img/habitats/terrarium.jpg" width="150" alt=""/>
+					<div class="caption">
+			  <h3>Glass Terrarium</h3>
+					
 					
 				  </div>
 				</div>
 			  </div>
 		</div>
           
+          
+       
+         <p>Pick out the cutest creatures totruley bring your habitat to life!</p>
+         
+         <div class="row">
+			  <div class="col-lg-4 col-md-6">
+				<div class="thumbnail">
+				  <img src="img/habitats/dinos.jpg" width="150" alt=""/>
+				  <div class="caption">
+					<h3>ferocious Dinosaurs</h3>
+					
+				  </div>
+				</div>
+			  </div>
+
+
+
+			  <div class="col-lg-4 col-md-6">
+				<div class="thumbnail">
+				 <img src="img/habitats/zoo.jpg" width="150" alt=""/>
+				<div class="caption">
+					<h3>zoo animals</h3>	
+					
+				  </div>
+				</div>
+			  </div>
+
+
+
+			  <div class="col-lg-4 col-md-6">
+				<div class="thumbnail">
+				  <img src="img/habitats/unicorns.jpg" width="150" alt=""/>
+					<div class="caption">
+			  <h3>Magical Unicorns</h3>
+					
+					
+				  </div>
+				</div>
+			  </div>
+		</div>
+       
         </div>
       </div>
     </section>
@@ -153,8 +195,7 @@
      <!-- Contact Section -->
       <section id="love" class="content-section text-center">
       <div class="container">
-        
-      </div>
+        <h1 class="brand-heading">WE ♥ SUCCULENTS!</h1>
     </section>
     
     <!-- Contact Section -->
@@ -162,30 +203,52 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact Start Bootstrap</h2>
-            <p>Feel free to leave us a comment on the
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
-              on Start Bootstrap to give some feedback about this theme!</p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                  <i class="fa fa-google-plus fa-fw"></i>
-                  <span class="network-name">Google+</span>
-                </a>
-              </li>
-            </ul>
+           
+          
+          
+           <form method="POST" id="enforcement" action="http://formspree.io/aem120120@gmail.com">
+			  <h2>Get in touch</h2>
+			  <p>If you would like to contact us, please fill out the form below. </p>
+			  
+				  <div class="form-group">
+				  <label id="name" for="Name">Your Name</label>
+				  <div class="form-row">
+				  
+					<div class="col">
+			  	
+				  	<label for="first_name"></label>
+					  <input type="text"  name="first_name" class="form-control" placeholder="First name">
+					</div>
+					<div class="col">
+				  		<label for="last_name"></label>
+					  <input type="text" name="last_name" class="form-control" placeholder="Last name">
+					</div>
+				  </div>
+				  </div>
+				  
+				  <div class="form-group">
+					<label for="email_1">Your email address</label>
+					<input type="text" name="email_1" class="form-control" id="email" >
+							
+				   
+				  
+				  <div class="form-group">
+					<label for="phone">Your phone number (optional)</label>
+					<input type="text" name="phone" class="form-control" id="telephone" >
+				  </div>
+				  
+					<div class="form-group">
+					<label for="message">Message</label>
+					<textarea class="form-control"  name="message" id="exampleFormControlTextarea1" rows="6"></textarea>
+				  </div>										
+													
+				</div>
+					<input type="submit" class="btn  submit"></input>
+																
+																																		
+				</form>
+         
+         
           </div>
         </div>
       </div>

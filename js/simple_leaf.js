@@ -26,6 +26,48 @@ $(document).ready(function() {
 			});
 		}
 	); // end click
+	
+	$("#email_form").validate({
+		rules: {
+			first_name: {
+				required: true,
+				minlength: 2
+			},
+			last_name: {
+				required: true,
+				minlength: 2
+			},
+			email_1: {
+				required: true,
+				email: true
+			},
+			phone: {
+				digits:true,
+				minlength: 10,
+				maxlength: 10
+			}
+		
+			
+		},
+		
+		messages: {
+		
+		first_name: {
+			minlength: "Please enter at least 2 characters"
+				
+		},
+		last_name: {
+			
+			minlength: "Please enter at least 2 characters"
+	    },
+		
+		phone: {
+			minlength:"Please enter your 10-digit phone number",
+			maxlength:"Please only enter you 10-digit phone number"
+		}
+	
+		
+}); // end validate
 }); // end ready
 
 

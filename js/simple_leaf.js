@@ -65,11 +65,11 @@ $(document).ready(function() {
 			minlength:"Please enter your 10-digit phone number",
 			maxlength:"Please only enter you 10-digit phone number"
 		}
+		}
 	
 		
-}); // end validate
-}); // end ready
-
+	}); // end validate
+	});// end ready
 
 
 

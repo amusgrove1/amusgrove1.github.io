@@ -37,7 +37,7 @@ $(document).ready(function() {
 				required: true,
 				minlength: 2
 			},
-			email_1: {
+			_replyto: {
 				required: true,
 				email: true
 			},
